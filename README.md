@@ -2,6 +2,7 @@
 ## Problem Definition and Data Requirements :
 - Problem Statement is to Predict pair of questions are duplicates or not, i.e. Identify which questions asked on Quora that have already been asked.
 - Business objective is to predict as many tags as possible with high precision and recall and constraint is suggesting incorrect tags could impact customer experience on StackOverflow
+- After doing EDA, Feature extraction & experimenting so many ML models we achieved minimum log_loss = 0.357, Initially for Random model log_loss was 0.887  
 - Required Data available at : https://drive.google.com/drive/folders/19nKTSJ8JK1gbQDtbOk4beUgwHc1GNnkO?usp=sharing
 
 ## EDA :
@@ -53,7 +54,18 @@ After featurising we got,
 - Number of features in question2 w2v  dataframe : 384
 - Number of features in final dataframe  : 794
 
+## ML Modelling :
+- Building a random model (Finding worst-case log-loss) :
+![10](https://user-images.githubusercontent.com/54996809/154852846-ca98f2a5-9e5d-4319-a64f-78fde0118746.png)
 
+- Logistic Regression with hyperparameter tuning :
+![11](https://user-images.githubusercontent.com/54996809/154852857-d0d944ed-9de5-4303-8eee-a104b6244765.png)
+
+- Linear SVM with hyperparameter tuning :
+![12](https://user-images.githubusercontent.com/54996809/154852863-7638a2f2-5ca3-4f56-bd99-0ffff640cd4a.png)
+
+- XGBoost :
+![13](https://user-images.githubusercontent.com/54996809/154852873-b91572c1-9dc7-4cc0-9085-c139f84a8aee.png)
 
 
 
