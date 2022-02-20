@@ -12,3 +12,5 @@
   - is_duplicate:  The label that we are trying to predict - whether the two questions are duplicates of each other.
 - Number of duplicate(smilar) and non-duplicate(non similar) questions :
 ![1](https://user-images.githubusercontent.com/54996809/154850643-d8a201fa-9cfe-40d6-a86c-bfd30673d846.png)
+- Plot representing unique and repeated questions :
+![2](https://user-images.githubusercontent.com/54996809/154850816-dbc55b9a-a421-4247-b498-08a1632ef45d.png)
