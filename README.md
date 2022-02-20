@@ -10,3 +10,5 @@
   - qid{1, 2}:  The unique ID of each question in the pair
   - question{1, 2}:  The actual textual contents of the questions.
   - is_duplicate:  The label that we are trying to predict - whether the two questions are duplicates of each other.
+- Number of duplicate(smilar) and non-duplicate(non similar) questions :
+kd 
