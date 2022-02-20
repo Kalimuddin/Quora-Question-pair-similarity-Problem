@@ -14,3 +14,4 @@
 ![1](https://user-images.githubusercontent.com/54996809/154850643-d8a201fa-9cfe-40d6-a86c-bfd30673d846.png)
 - Plot representing unique and repeated questions :
 ![2](https://user-images.githubusercontent.com/54996809/154850816-dbc55b9a-a421-4247-b498-08a1632ef45d.png)
+![3](https://user-images.githubusercontent.com/54996809/154850907-4ef075d4-d0b7-4245-9295-44ddd41a4a16.png)
