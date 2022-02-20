@@ -32,6 +32,7 @@
 - Removing Stopwords
 - Expanding contractions etc.
 
+## Analysis after Data Cleaning :
 - Word Clouds generated from duplicate pair question's text :
 ![6](https://user-images.githubusercontent.com/54996809/154852177-272e4787-3077-4521-873a-ddf3e4900959.png)
 
@@ -44,7 +45,13 @@
 - Using TSNE for Dimentionality reduction for 15 Features(Generated after cleaning the data) :
 ![9](https://user-images.githubusercontent.com/54996809/154852292-1ca4ef92-5fd8-4881-9dcd-4d6bf3650315.png)
 
-
+## Featurizing text data with tfidf weighted word-vectors :
+After featurising we got,
+- Number of features in nlp dataframe : 17
+- Number of features in preprocessed dataframe : 12
+- Number of features in question1 w2v  dataframe : 384
+- Number of features in question2 w2v  dataframe : 384
+- Number of features in final dataframe  : 794
 
 
 
